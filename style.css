@@ -9,3 +9,9 @@ Tags: one-column,two-columns,right-sidebar,accessibility-ready,custom-background
 Version: 2.2.1606817041
 Updated: 2020-12-01 11:04:01
 */
+body::before, body::after {
+    height: 0 !important;
+}
+#page {
+	margin: 0;
+}
